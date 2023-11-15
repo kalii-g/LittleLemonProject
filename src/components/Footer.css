@@ -1,0 +1,24 @@
+.footer {
+  background-color: #edefee;
+  padding: 4rem 0;
+}
+
+.footer > ul {
+  display: flex;
+}
+
+.footer .social {
+  display: flex;
+}
+
+.social a {
+  padding: 0.6rem;
+}
+
+.footer > ul > li {
+  flex-basis: 25%;
+}
+
+.footer li li {
+  display: block;
+}

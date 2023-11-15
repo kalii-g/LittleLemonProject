@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+header img {
+  display: block;
+}
+
+header ul {
+  display: flex;
+  padding-left: 4rem;
+  margin: 0;
+}
+
+header li a {
+  display: inline-block;
+  padding: 1.2rem 2rem;
+  line-height: 1;
+  text-decoration: none;
+}
