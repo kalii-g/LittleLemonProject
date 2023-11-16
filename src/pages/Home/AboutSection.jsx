@@ -4,8 +4,8 @@ import owners2 from '../../assets/images/owners2.jpg'
 
 const AboutSection = () => {
   return (
-    <section className="about">
-      <div className="aboutDescription">
+    <section className="about container">
+      <div className="about-description">
         <h2>About</h2>
         <p>
           Based in Chicago, Illinois, Little Lemon is a family-owned
@@ -23,7 +23,7 @@ const AboutSection = () => {
           region.
         </p>
       </div>
-      <div className="aboutImages">
+      <div className="about-images">
         <img src={owners1} />
         <img src={owners2} />
       </div>

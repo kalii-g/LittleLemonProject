@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
 import BookingPage from './pages/BookingPage'
-import HomePage from './pages/HomePage'
+import HomePage from './pages/Home/HomePage'
 
 function App() {
   return (

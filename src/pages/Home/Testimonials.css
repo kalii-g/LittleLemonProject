@@ -2,27 +2,30 @@
   text-align: center;
 }
 
-.testimonials ul {
-  list-style: none;
-  padding-left: 0;
+.testimonials .testimonials-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
-.testimonials li {
+
+.testimonials article {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.profileImg {
+.rating-wrapper {
+  margin: 1rem 0;
+}
+
+.profile-img {
   height: 100px;
   width: 100px;
   overflow: hidden;
   border-radius: 50%;
 }
 
-.profileImg img {
+.profile-img img {
   height: 100%;
   width: autol;
 }

@@ -1,0 +1,15 @@
+.specials {
+  margin-top: 12rem;
+}
+
+.specials .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specials .menu-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
