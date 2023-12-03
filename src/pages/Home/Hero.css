@@ -28,8 +28,6 @@
 }
 
 .hero .img-wrapper {
-  margin-bottom: -8rem;
-  margin-right: -2rem;
   height: 317px;
   overflow: hidden;
   border-radius: 0.8rem;
@@ -38,4 +36,11 @@
 .hero img {
   width: 252px;
   height: auto;
+}
+
+@media (min-width: 1200px) {
+  .hero .img-wrapper {
+    margin-bottom: -8rem;
+    margin-right: -2rem;
+  }
 }

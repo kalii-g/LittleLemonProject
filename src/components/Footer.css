@@ -5,6 +5,7 @@
 
 .footer > ul {
   display: flex;
+  flex-direction: column;
 }
 
 .footer .social {
@@ -21,4 +22,10 @@
 
 .footer li li {
   display: block;
+}
+
+@media (min-width: 768px) {
+  .footer > ul {
+    flex-direction: row;
+  }
 }

@@ -1,15 +1,22 @@
 header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 2rem 0;
 }
 
 header img {
   display: block;
+  margin: 0 auto;
+}
+
+header nav {
+  text-align: center;
 }
 
 header ul {
   display: flex;
+  flex-direction: column;
   padding-left: 4rem;
   margin: 0;
 }
@@ -17,6 +24,24 @@ header ul {
 header li a {
   display: inline-block;
   padding: 1.2rem 2rem;
+  font-size: 1.8rem;
   line-height: 1;
+  text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.6s;
+}
+
+header li a:hover {
+  color: #708780;
+}
+
+@media (min-width: 768px) {
+  header,
+  header ul {
+    flex-direction: row;
+  }
+
+  header nav {
+    text-align: left;
+  }
 }

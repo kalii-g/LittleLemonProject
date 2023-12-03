@@ -63,32 +63,11 @@ h2 {
   line-height: 1;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 0;
-}
-
-header img {
-  display: block;
-}
-
-header ul {
-  display: flex;
-  padding-left: 4rem;
-  margin: 0;
-}
-
-header li a {
-  display: inline-block;
-  padding: 1.2rem 2rem;
-  line-height: 1;
-  text-decoration: none;
-}
-
 .container {
   margin: 0 auto;
   max-width: 108.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media screen and (min-width: 73.75em) {
@@ -100,16 +79,4 @@ header li a {
 .testimonials,
 .about {
   margin-top: 8rem;
-}
-
-.about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-
-.about-images img:last-child {
-  top: -8.5rem;
-  right: -4rem;
-  position: relative;
 }
