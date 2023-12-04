@@ -1,0 +1,6 @@
+.details-wrapper {
+  min-height: calc(100vh - 296px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

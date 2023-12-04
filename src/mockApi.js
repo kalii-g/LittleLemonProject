@@ -1,12 +1,3 @@
-function RNG(seed) {
-  var m = 2 ** 35 - 31
-  var a = 185852
-  var s = seed % m
-  return function () {
-    return (s = (s * a) % m) / m
-  }
-}
-
 function LCG(seed) {
   const m = 2 ** 31 // modulus
   const a = 1103515245 // multiplier

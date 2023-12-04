@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.subtitle {
+  font-size: 2.2rem;
+  margin-bottom: 2.6rem;
+}
+
 .form-control {
   margin-bottom: 2rem;
 }
@@ -134,4 +139,8 @@ button:disabled {
   box-sizing: border-box;
   height: 50px;
   border-radius: 0;
+}
+
+.input-error {
+  color: #c60303;
 }
